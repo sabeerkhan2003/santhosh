@@ -1,0 +1,45 @@
+<style>
+    .bigscreen{
+        display: flex;
+        gap:10px;
+        
+    }
+
+    .one{
+        background-color: blue;
+        height: 100px;
+        width: 100px;
+    }
+
+    .two{
+        background-color: red;
+        height: 100px;
+        width: 100px;
+    }
+    @media screen and (max-width:600px) {
+        .one{
+            
+            display: none;
+            
+            
+        }
+        .two{
+            border-radius: 50px;
+            
+
+        }
+    }
+</style>
+
+
+<div class="bigscreen">
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="one"></div>
+    <div class="two"></div>
+    
+</div>
